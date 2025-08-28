@@ -1,0 +1,39 @@
+.habit {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &-table {
+    &__bottom {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(31, 20px);
+      grid-auto-rows: 20px;
+      gap: 10px;
+    }
+
+    &__body {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(31, 20px);
+      grid-auto-rows: 20px;
+      gap: 10px;
+    }
+
+    &__item {
+      margin: 0;
+      padding: 0;
+      background-color: lightgray;
+      border: 1px solid black;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+}
