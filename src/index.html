@@ -4,50 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TypeScript Webpack App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Huninn&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="app">
       <h1 class="h1">Трекер привычек</h1>
+      <div class="grid">
 
-      <button class="button" onclick="window.dialog.showModal()">+</button>
+        <div class="block col-6">
+          <div class="h1">📆Дата</div>
 
-      <div class="days">
-        <div class="habit-table__day">1</div>
-        <div class="habit-table__day">2</div>
-        <div class="habit-table__day">3</div>
-        <div class="habit-table__day">4</div>
-        <div class="habit-table__day">5</div>
-        <div class="habit-table__day">6</div>
-        <div class="habit-table__day">7</div>
-        <div class="habit-table__day">8</div>
-        <div class="habit-table__day">9</div>
-        <div class="habit-table__day">10</div>
-        <div class="habit-table__day">11</div>
-        <div class="habit-table__day">12</div>
-        <div class="habit-table__day">13</div>
-        <div class="habit-table__day">14</div>
-        <div class="habit-table__day">15</div>
-        <div class="habit-table__day">16</div>
-        <div class="habit-table__day">17</div>
-        <div class="habit-table__day">18</div>
-        <div class="habit-table__day">19</div>
-        <div class="habit-table__day">20</div>
-        <div class="habit-table__day">21</div>
-        <div class="habit-table__day">22</div>
-        <div class="habit-table__day">23</div>
-        <div class="habit-table__day">24</div>
-        <div class="habit-table__day">25</div>
-        <div class="habit-table__day">26</div>
-        <div class="habit-table__day">27</div>
-        <div class="habit-table__day">28</div>
-        <div class="habit-table__day">29</div>
-        <div class="habit-table__day">30</div>
-        <div class="habit-table__day">31</div>
-      </div>
+          <div class="date">Выберите дату</div>
+        </div>
+        <div class="block col-6">
+          <div class="h1">📈Прогресс</div>
 
-      <div class="habit">
-        <div class="habit__container">
-          <div>Читаем книгу</div>
+          <div class="progress">Отличная работа!</div>
+        </div>
+
+        <div class="block col-12 our-habits">
+          <div class="h1">✨Ваши привычки</div>
+
+          <button class="button our-habits__btn" onclick="window.dialog.showModal()">+</button>
+
+          <div class="days">
+            <div class="habit-table__day">1</div>
+            <div class="habit-table__day">2</div>
+            <div class="habit-table__day">3</div>
+            <div class="habit-table__day">4</div>
+            <div class="habit-table__day">5</div>
+            <div class="habit-table__day">6</div>
+            <div class="habit-table__day">7</div>
+            <div class="habit-table__day">8</div>
+            <div class="habit-table__day">9</div>
+            <div class="habit-table__day">10</div>
+            <div class="habit-table__day">11</div>
+            <div class="habit-table__day">12</div>
+            <div class="habit-table__day">13</div>
+            <div class="habit-table__day">14</div>
+            <div class="habit-table__day">15</div>
+            <div class="habit-table__day">16</div>
+            <div class="habit-table__day">17</div>
+            <div class="habit-table__day">18</div>
+            <div class="habit-table__day">19</div>
+            <div class="habit-table__day">20</div>
+            <div class="habit-table__day">21</div>
+            <div class="habit-table__day">22</div>
+            <div class="habit-table__day">23</div>
+            <div class="habit-table__day">24</div>
+            <div class="habit-table__day">25</div>
+            <div class="habit-table__day">26</div>
+            <div class="habit-table__day">27</div>
+            <div class="habit-table__day">28</div>
+            <div class="habit-table__day">29</div>
+            <div class="habit-table__day">30</div>
+            <div class="habit-table__day">31</div>
+          </div>
+
+          <div class="habit">
+            <div class="habit__container">
+              <div>Читаем книгу</div>
 
           <div class="habit-table">
             <div class="habit-table__body">

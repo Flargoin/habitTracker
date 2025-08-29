@@ -3,8 +3,8 @@
   width: 35px;
   height: 35px;
   border-radius: 100%;
-  background-color: cadetblue;
-  color: white;
+  background-color: var(--color-accent);
+  color: var(--white);
   /* padding: 7px 12px; */
   font-size: 24px;
   font-weight: 700;
@@ -15,12 +15,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: -6px -6px 12px #c5c5c5, 6px 6px 12px #23232340;
 
   @media (hover: hover) {
     &:hover {
       background-color: transparent;
-      color: cadetblue;
-      border: 2px solid cadetblue;
+      color: var(--color-accent);
+      border: 2px solid var(--color-accent);
     }
   }
 }

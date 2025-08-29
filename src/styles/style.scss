@@ -1,4 +1,7 @@
+@use "./vars";
 @use "./settings";
 @use "./components/button";
+@use "./components/our-habits";
 @use "./components/habit";
 @use "./components/days";
+@use "./components/checkbox";
